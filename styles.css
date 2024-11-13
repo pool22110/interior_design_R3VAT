@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background: #dbcec4;
+}
+
+header {
+    background: #101c28;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* header img{
+    width: 100px;
+} */
+
+header h1 {
+    margin: 0;
+}
+
+header img{
+    width:100% ;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 12%; */
+    
+}
+
+.contact-container{
+    width: 90%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+    margin: 20px 0;
+    box-shadow: rgba(255, 0, 0, 0.2);
+}
+.neel-info h4,.neel-info p{
+    margin-left:36px ;
+    display: flex;
+    padding: 0;
+    align-items: center
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.neel-info ul li{
+    font-size: 15px;
+    display: flex;
+    padding: 5px 0;
+    align-items: center;
+}
+
+.neel-info{
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type:none;
+    display: block ;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    /* background: url('hero-image.jpg') no-repeat center center/cover; */
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.cta-button {
+    background: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about, .portfolio, .contact {
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.about p{
+    font-size: 20px;
+    font-weight:300 ;
+}
+h2 {
+    font-size: 2em;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* .contact form {
+    max-width: 400px;
+    margin: 0 auto;
+} */
+
+/* label {
+    display: block;
+    margin: 10px 0 5px;
+} */
+/* 
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+} */
+
+button {
+    background: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #444;
+    color: white;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero h2 {
+        font-size: 2em;
+    }
+
+    .cta-button {
+        padding: 8px 16px;
+    }
+
+    .about, .portfolio, .contact {
+        padding: 30px 20px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+
+    .contact form {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h2 {
+        font-size: 1.5em;
+    }
+
+    .cta-button {
+        font-size: 0.9em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
