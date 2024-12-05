@@ -21,7 +21,7 @@ header h1 {
 }
 
 header img{
-    width:100% ;
+    width:100%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -40,10 +40,10 @@ header img{
     box-shadow: rgba(255, 0, 0, 0.2);
 }
 .neel-info h4,.neel-info p{
-    margin-left:36px ;
+    margin-left:36px;
     display: flex;
     padding: 0;
-    align-items: center
+    align-items: center;
 }
 nav ul{
     list-style-type: none;
